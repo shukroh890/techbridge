@@ -1,0 +1,75 @@
+.flex-container{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(253, 249, 249);
+}
+#facebook{
+    color: rgb(30, 30, 197);
+    font-size: 1cm;
+}
+.flex1{
+    line-height: 17px;
+    height: 60vh;
+
+}
+.form{
+    background-color: white;
+    border: 1px solid rgb(240, 237, 237);
+    border-radius: 10px;
+    box-shadow: rgb(172, 168, 168);
+    padding: 20px;
+    
+}
+input{
+    width: 90%;
+    margin: 9px 10px 9px 10px;
+    padding: 17px 10px;
+    border-radius: 4px;
+    border:1px solid rgb(211, 208, 208);
+    outline-color: rgb(102, 102, 238);
+}
+#login{
+    width: 96%;
+    background-color:rgb(30, 30, 197);
+    color: white;
+    font-size: 17px;
+    padding: 12px 0;
+    border: 2px solid rgb(30, 30, 197);
+    border-radius: 3px;
+    margin: 10px 0px 20px 0px;
+}.bottom{
+    text-align: center;
+
+}
+#submit{
+    width: 5cm;
+    background-color: rgb(61, 221, 61);
+    color: white;
+    margin: 20px 40px ;
+    padding: 13px 10px;
+    border: 1px solid  rgb(61, 221, 61);
+    border-radius: 2px;
+}
+#link{ 
+    text-decoration: none;
+    color: rgb(30, 30, 197) ;
+}
+hr{
+    
+    margin-top: 20px;
+}
+#end{
+    text-align: center;
+}
+.transition{
+    width: 5cm;
+    height: 5cm;
+    background-color: brown;
+    transition: all;
+    transition-duration: 3s;
+}
